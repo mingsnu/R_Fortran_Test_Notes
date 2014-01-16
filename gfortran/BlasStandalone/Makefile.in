@@ -1,0 +1,5 @@
+all:
+	gfortran -o vector_dot vector_dot.f -lblas
+	gfortran -o matrix_sm matrix_sm.f -lblas
+clean:
+	-rm vector_dot.o vector_dot.so matrix_sm matrix_sm.so

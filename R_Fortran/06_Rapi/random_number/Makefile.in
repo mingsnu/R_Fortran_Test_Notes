@@ -1,0 +1,5 @@
+all:
+	R CMD SHLIB -I/usr/share/R/include random.f random_wrapper.c
+clean:
+	-rm random.o random_wrapper.o random.so
+

@@ -1,0 +1,1 @@
+PKG_LIBS= -I/usr/share/R/include/

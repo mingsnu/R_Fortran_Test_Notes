@@ -1,0 +1,4 @@
+linear_equ:linear_equ.f
+	gfortran linear_equ.f -o linear_equ -llapack
+clean:
+	rm linear_equ
